@@ -9,24 +9,9 @@ Version      : 1.0
 	
 	
 		/*PRELOADER JS*/
-		$(document).ready(function() {
-			var video = document.getElementById('loading-video');
-			
-			// 方法1：视频播放完成后隐藏
-			video.addEventListener('ended', function() {
-				$('.atf-preloader').fadeOut();
-			});
-			
-			// 方法2：设置固定时间后隐藏（比如5秒）
-			setTimeout(function () {
-				$('.atf-preloader').fadeOut();
-			}, 5000);
-			
-			// 方法3：页面完全加载后隐藏
-			$(window).on('load', function() {
-				$('.atf-preloader').fadeOut();
-			});
-		});
+			 setTimeout(function () {
+            $('.atf-status').fadeOut();
+        }, 3000);
 		/*END PRELOADER JS*/
        
 
