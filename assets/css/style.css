@@ -586,6 +586,13 @@ to {
 	color: var(--thm-white);
 }
 
+/* Logo样式 - 限制logo大小 */
+.atf-site-branding img {
+	max-width: 150px !important;
+	height: auto;
+	width: auto;
+}
+
 @media screen and (max-width: 991px) {
   .atf-main-header .container {
     max-width: 100%; }
