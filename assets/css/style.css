@@ -588,7 +588,7 @@ to {
 
 /* Logo样式 - 限制logo大小 */
 .atf-site-branding img {
-	max-width: 150px !important;
+	max-width: 100px !important;
 	height: auto;
 	width: auto;
 }
